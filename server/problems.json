@@ -1,0 +1,69 @@
+[
+     
+    {
+      "id": "valid-anagram",
+      "title": "Valid Anagram",
+      "difficulty": "Easy",
+      "description": "Given two strings `s` and `t`, return `true` if `t` is an anagram of `s`, and `false` otherwise.",
+      "examples": [
+        {
+          "input": "s = \"anagram\", t = \"nagaram\"",
+          "output": "true"
+        },
+        {
+          "input": "s = \"rat\", t = \"car\"",
+          "output": "false"
+        }
+      ],
+      "constraints": [
+        "1 <= s.length, t.length <= 5 * 10^4",
+        "s and t consist of lowercase English letters."
+      ],
+      "functionName": "isAnagram",
+      "starterCode": {
+        "javascript": "function isAnagram(s, t) {\n    \n};"
+      },
+      "testCases": 
+        [
+          { "input": { "s": "anagram", "t": "nagaram" }, "expected": true },
+          { "input": { "s": "rat", "t": "car" }, "expected": false },
+          { "input": { "s": "a", "t": "a" }, "expected": true },
+          { "input": { "s": "listen", "t": "silent" }, "expected": true },
+          { "input": { "s": "hello", "t": "bello" }, "expected": false },
+          { "input": { "s": "aabbcc", "t": "ccbbaa" }, "expected": true }
+        ]
+    },
+    {
+      "id": "missing-number",
+      "title": "Missing Number",
+      "difficulty": "Easy",
+      "description": "Given an array `nums` containing `n` distinct numbers in the range `[0, n]`, return *the only number in the range that is missing from the array.*",
+      "examples": [
+        {
+          "input": "nums = [3,0,1]",
+          "output": "2",
+          "explanation": "n = 3 since there are 3 numbers, so all numbers are in the range [0,3]. 2 is the missing number in the range since it does not appear in nums."
+        },
+        {
+          "input": "nums = [0,1]",
+          "output": "2",
+          "explanation": "n = 2 since there are 2 numbers, so all numbers are in the range [0,2]. 2 is the missing number in the range since it does not appear in nums."
+        },
+        {
+          "input": "nums = [9,6,4,2,3,5,7,0,1]",
+          "output": "8",
+          "explanation": "n = 9 since there are 9 numbers, so all numbers are in the range [0,9]. 8 is the missing number in the range since it does not appear in nums."
+        }
+      ],
+      "constraints": [],
+      "starterCode": {
+        "javascript": "/**\n * @param {number[]} nums\n * @return {number}\n */\nvar missingNumber = function(nums) {\n    \n};"
+      },
+      "functionName": "missingNumber",
+      "testCases" : [ 
+        {"input": [3,0,1], "expected": 2},
+        {"input": [0,1], "expected": 2},
+        {"input": [9,6,4,2,3,5,7,0,1], "expected" : 8}
+      ]
+    }
+  ]
