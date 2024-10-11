@@ -1,4 +1,4 @@
-# CodeCoad
+# CodeCoach
 
 CodeCoad is an open-source Data Structures and Algorithms (DSA) Socratic learning platform. It uses MongoDB for data storage, Gemini Pro as the language model, Next.js for the frontend, and Express for the backend.
 
