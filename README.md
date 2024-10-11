@@ -45,13 +45,7 @@ Before you begin, ensure you have the following installed:
 
 3. Open your browser and navigate to `http://localhost:3000` to use CodeCoad.
 
-## Contributing
 
-We welcome contributions! Please see our [CONTRIBUTING.md](CONTRIBUTING.md) file for details on how to contribute to this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
 ## Support
 
